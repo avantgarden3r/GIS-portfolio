@@ -75,10 +75,10 @@ body, html {
 
 /***** BODY *****/
 /* home design */
-img {
+/* img {
     max-width: 100%;
     height: auto;
-  }
+} */
 
 .hometext {
     position: absolute;
@@ -90,7 +90,7 @@ img {
 
 footer {
     position: absolute;
-    bottom: 8px;
+    bottom: 1rem;
     left: 50%;
     font-size: 18px;
 }
