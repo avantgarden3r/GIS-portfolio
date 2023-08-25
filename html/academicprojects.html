@@ -37,13 +37,17 @@
 
     <!--body-->
     <body>
-        <div class="page-title">
-            <h1>Academic Projects</h1>
-            <p>
-                These are a few projects I created during my college career. <br>
-                Most were made using ArcMap, and each image is accompanied by a more <br>
-                in-depth description of the tools and supplementary apps utilized.
-            </p>
+        <div class="page-header">
+            <div class="page-title">
+                <h1>Academic Projects</h1>
+                <p>
+                    These are a few projects I created during my college career.<br>
+                    Unfortunately, I lost access to all the maps I actually made,<br>
+                    so I recreated a few by finding an online syllabus.<br>
+                    Most were made using ArcMap, and each image is accompanied by a more<br>
+                    in-depth description of the tools and supplementary apps utilized.
+                </p>
+            </div>
             <div class="btn-grp">
                 <span class="badge badge-primary">ArcGIS Pro</span>
                 <span class="badge badge-secondary">ArcGIS Online</span>
@@ -55,9 +59,40 @@
                 <span class="badge badge-dark">Survey123</span>
             </div>
         </div>
-        <div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="../img/MtStHelensMap.jpg" alt="Mt. St. Helens DEM">
+                        <div class="card-body">
+                          <h5 class="card-title">Mt. St. Helens Elevation</h5>
+                          <p class="card-text">Created using DEM rasters of Mt. St. Helens in WA. Used spatial analyst tools to calculate contour, slope, aspect, and hillshade.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge badge-success">ArcMap</span>
+                            <span class="badge badge-danger">ArcScene</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 30rem;">
+                        <img class="card-img-top" src="../img/WashingtonRainMap.jpg" alt="Washington State Precipitation">
+                        <div class="card-body">
+                          <h5 class="card-title">Washington State Precipitation</h5>
+                          <p class="card-text">Conducted SQL queries to isolate city points and raster values by state.</p>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge badge-success">ArcMap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <!-- <div>
             <div class="card" style="width: 40rem;">
-                <img class="card-img-top" src="" alt="Mt. St. Helens DEM">
+                <img class="card-img-top" src="../img/MtStHelensMap.jpg" alt="Mt. St. Helens DEM">
                 <div class="card-body">
                   <h5 class="card-title">Mt. St. Helens Elevation</h5>
                   <p class="card-text">Created using DEM rasters of Mt. St. Helens in WA. Used spatial analyst tools to calculate contour, slope, aspect, and hillshade.</p>
@@ -67,7 +102,17 @@
                     <span class="badge badge-danger">ArcScene</span>
                 </div>
               </div>
-        </div>
+            <div class="card" style="width: 40rem;">
+                <img class="card-img-top" src="../img/WashingtonRainMap.jpg" alt="Washington State Precipitation">
+                <div class="card-body">
+                  <h5 class="card-title">Washington State Precipitation</h5>
+                  <p class="card-text">Conducted SQL queries to isolate city points and raster values by state.</p>
+                </div>
+                <div class="card-body">
+                    <span class="badge badge-success">ArcMap</span>
+                </div>
+            </div>
+        </div> -->
 
         <!--footer-->
         <footer>

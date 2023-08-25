@@ -1,20 +1,56 @@
-/***** ALL STYLING *****/
+/********************
+    ALL STYLING
+********************/
 body, html {
     font-family: Constantia;
     height: 100%;
     margin: 0;
 }
 
-#home {
-  background-image: url("../img/gishomepage.jpg");
-  background-size: cover;
+body {
+    background-image: url("../img/gishomepage.jpg");
+    background-size: cover;
 }
 
-/***** NAVBAR *****/
-
-
+/*********************
+      NAVBAR
+*********************/
 .navbar {
     z-index: 100;
+}
+
+/*********************
+    PAGE DESIGN
+**********************/
+.hometext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 4rem;
+}
+.btn-grp {
+    text-align: center;
+}
+
+.contact-form {
+    margin: 5rem;
+    padding: 5rem;
+}
+
+/*********************
+    FOOTER
+*********************/
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    font-size: 18px;
 }
 
 /* .navbar a {
@@ -79,18 +115,3 @@ body, html {
     max-width: 100%;
     height: auto;
 } */
-
-.hometext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-}
-
-footer {
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    font-size: 18px;
-}
