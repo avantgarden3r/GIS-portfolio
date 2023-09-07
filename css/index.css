@@ -49,6 +49,11 @@ body, html {
     padding: 5vh;
 }
 
+.aboutimg {
+    max-width: 30vh;
+    max-height: fit-content;
+}
+
 /*********************
     FOOTER
 *********************/
