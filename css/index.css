@@ -7,7 +7,7 @@ body, html {
     margin: 0;
 }
 
-body {
+#home {
     background-image: url("../img/gishomepage.jpg");
     background-size: cover;
 }
@@ -24,10 +24,11 @@ body {
 **********************/
 .hometext {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
 }
 
 .page-title {
@@ -38,19 +39,22 @@ body {
     text-align: center;
 }
 
+.bio {
+    text-align: center;
+}
+
 .contact-form {
-    margin: 5rem;
-    padding: 5rem;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    padding: 5vh;
 }
 
 /*********************
     FOOTER
 *********************/
 footer {
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    font-size: 18px;
+    text-align: center;
+    z-index: 100;
 }
 
 /* .navbar a {
